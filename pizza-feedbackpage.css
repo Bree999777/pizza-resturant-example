@@ -1,0 +1,286 @@
+ /* Brianan Hyland */
+    
+    body {
+    background-image: url("images/backgroundimg.jpg");
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size: cover;
+    background-color: antiquewhite;
+
+    }
+    
+
+    
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction:column;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+    
+    .flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction:row;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+    .flex-heading
+    {
+        flex: 100%;
+        text-align: center;
+    }
+
+    
+    .flex-img-right{
+        flex: 40%;
+        padding-top:5%;
+        margin-left: -5%;
+    }
+    
+    .flex-img-left{
+        flex:37%;
+        padding-top:5%;
+        padding-right: 3%;
+    }
+
+
+h1 {
+  font-family: "jumble", sans-serif;
+        font-size:5em;
+        color: #DE4F54;
+     -webkit-text-stroke: 1px #272727 ;
+    text-align: center;
+}    
+    
+
+    #rectangle1 {
+        height:100%;
+        width: 80%;
+        background-color: #ffffff;
+        z-index: -1;
+        position: absolute;
+        margin-top: 8%;
+    }
+
+    
+    p { 
+    font-family: "Acumin Pro", "sans-serif";
+        font-weight: 100;
+    }
+
+
+
+
+    .logo {
+        float: right;
+        text-align: right;
+    }
+
+  
+
+    
+    .img {
+        width: 40%;
+        float:left;
+        position: absolute;
+    } 
+    
+    .tellus {
+        flex-direction: row;
+        padding:1em;
+        font-family: "Acumin Pro", "sans-serif";
+        font-weight: 100;
+    }
+    
+    .goodbad {
+        padding: 4%;
+        width: 100%;
+        max-width: 130px;
+        opacity: .5;
+    }
+    
+
+    
+    #freview {
+                margin:.2em;
+        padding:1em;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 1.5em;
+    }
+    
+    #text-box {
+        margin: 0;
+        text-align:left;
+        float:right;
+    }
+    
+    
+    
+    
+/* HEADER CODE */
+    
+    header{
+    width: 100%;
+    height: 10%;
+        
+}
+    
+.topLink{
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+      float: left;
+    text-decoration: none;
+}
+.topLink a{
+    font-size: 3em;
+    font-family: jumble, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #CC4848;
+    -webkit-text-stroke: 3px #272727 ;
+    text-decoration: none;
+
+}
+    
+
+#feedback a:hover{
+    opacity: 1;}
+#feedback{
+    opacity: 0.5;
+}
+    #feedback:hover {
+        opacity: 1;
+    }
+#ourStory a{
+}
+#ourStory{
+ 
+}
+#order a{
+}
+    
+#order{
+    opacity: 0.5;
+    }
+    #order:hover{
+        opacity: 1;
+    }
+#home a{
+
+}
+#home{
+    margin-top: -10px;
+    opacity: 0.5;
+}
+    #home:hover{
+    margin-top: -10px;
+        opacity: 1;
+}
+    
+    
+    /* FOOTER CODE */
+    
+    footer{
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: antiquewhite;
+}
+#footerRight{
+    width: 100%;
+    margin-top: -80px;
+    text-align: right;
+}
+    
+
+    
+@media screen and (max-width : 800px) {
+     
+    .topLink a{
+    font-size: 1em;
+    font-family: jumble, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #CC4848;
+    -webkit-text-stroke: 1px #272727 ;
+    text-decoration: none;
+        text-align: center;
+        
+        
+
+}    
+     
+        p {
+            font-size: 1em;
+            padding: 10%;
+            font-weight: 100;
+
+        }
+        
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+    
+    #rectangle1 {
+        width: 100%;
+        height:100%;
+        margin-left: 0px;
+    }
+    
+    .flex-container {
+        padding-left: 0;
+        padding-right: 0;
+          flex-direction:column;
+    }
+    
+    
+    
+    .flex-container1 {
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+        
+    }
+    
+
+    
+#topimage {
+	background-image: url("images/1.1.jpg");
+	background-size: cover;
+	background-position: 100% 100%;
+    height: 25%;
+	color:#ffffff;
+    opacity:.5;
+	position:relative;
+
+}
+    
+    body {
+        background-image: none;
+        background-color: #DE4F54;
+    }
+    
+    
+    .image1 {
+        padding: 0px;
+    }
+    
+        .image2 {
+        padding: 0px;
+    }
+
+    }
+    
+    /* Brianan Hyland */
